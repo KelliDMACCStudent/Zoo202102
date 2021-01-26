@@ -4,6 +4,7 @@ import model.Crow;
 import model.Dog;
 import model.Pig;
 import model.Rhino;
+import model.Test;
 import model.Duck;
 import model.Mongoose;
 import model.Frog;
@@ -62,8 +63,9 @@ public class AnimalNoise {
 
 		Lion lion = new Lion(); 
 		System.out.println(lion.speak());
-		
 
+		Test test1 = new Test();
+		System.out.println(test1.speak());
 	}
 }
 
