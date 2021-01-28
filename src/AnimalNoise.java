@@ -4,6 +4,7 @@ import model.Crow;
 import model.Dog;
 import model.Pig;
 import model.Rhino;
+import model.Sheep;
 import model.Test;
 import model.Duck;
 import model.Mongoose;
@@ -60,9 +61,13 @@ public class AnimalNoise {
 
 		Crow crow = new Crow();
 		System.out.println(crow.speak());
+		
 
 		Lion lion = new Lion(); 
 		System.out.println(lion.speak());
+		
+		Sheep sheep = new Sheep();
+		System.out.println(sheep.speak());
 
 		Test test1 = new Test();
 		System.out.println(test1.speak());
